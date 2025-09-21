@@ -58,7 +58,7 @@ manag_time = 10   # sec
 
 # ===== מסד נתונים =====
 BASE_DIR = os.path.dirname(__file__)
-db_name  = os.path.join(BASE_DIR, "data", "DreamGuard.db")
+db_name  = os.path.join(BASE_DIR, "data", "ProofingGuard.db")
 # אתחול סכימה וזרעים (להריץ פעם אחת כשמשנים את סוגי המכשירים)
 db_init  = False   # הפוך ל-True → הרץ data_acq.py → החזר ל-False
 
